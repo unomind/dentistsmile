@@ -17,14 +17,14 @@ api_token: 9daf29a9911a50f5baedf00ee430d5ee # Enter API token here
 # Contact info
 contact:
     phone: 085747915464
-    emergency: 
+    emergency: 085747915464
     email: sumarsono.wongbandar@gmail.com
     address: Limbangan, Boja, Kendal
 
-# Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 15:00
-sunday: 10:00 – 15:00
+# tanggal pelaksanaan
+hari: Minggu, 23
+bulan: Agustus
+tahun: 2020
 
 # Testimonials
 testimonials:
