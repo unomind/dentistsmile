@@ -1,6 +1,6 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Sumarsono X Evanaimatul
+description: "Sebuah akhir dan awal"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
@@ -8,18 +8,18 @@ logo_url: svg/min/logo.svg
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_title: Kami mohon doa restu dan mengundang
+    hero_description: Segenap keluarga, kerabat, saudara, dan sahabat dalam pernikahan kami
 
 # Contact form
-api_token: # Enter API token here
+api_token: 9daf29a9911a50f5baedf00ee430d5ee # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    phone: 085747915464
+    emergency: 
+    email: sumarsono.wongbandar@gmail.com
+    address: Limbangan, Boja, Kendal
 
 # Opening hours
 monday_friday: 9:00 – 18:00
@@ -33,7 +33,7 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
+    address: Tercel, Limbangan, Boja, Kendal, Indonesia
     address_details: svg/min/logo.svg
 
 # Social settings
@@ -45,7 +45,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2020 Sumarsono
 
 # Build settings
 markdown: kramdown
