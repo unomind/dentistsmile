@@ -8,8 +8,8 @@ logo_url: svg/min/logo.svg
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: Kami mohon doa restu dan mengundang
-    hero_description: Segenap keluarga, kerabat, saudara, dan sahabat dalam pernikahan kami
+    hero_title: Mohon doa restu
+    hero_description: Kami mengundang Bapak/Ibu/Sdr/i dalam acara pernikahan kami
 
 # Contact form
 api_token: 9daf29a9911a50f5baedf00ee430d5ee # Enter API token here
@@ -21,10 +21,15 @@ contact:
     email: sumarsono.wongbandar@gmail.com
     address: Limbangan, Boja, Kendal
 
+# Mempelai
+mempelai:
+    pria: "Sumar"
+    wanita: "Eva"
+
 # tanggal pelaksanaan
-hari: Minggu, 23
-bulan: Agustus
-tahun: 2020
+akad:
+    hari: "Minggu, 23 Agustus 2020"
+    tempat: "Tercel, Limbangan, Boja, Kendal"
 
 # Testimonials
 testimonials:
@@ -37,12 +42,12 @@ map:
     address_details: svg/min/logo.svg
 
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
-feed: yes
+#facebook: http://facebook.com
+twitter: http://twitter.com/
+#instagram: http://instagram.com
+#youtube: http://youtube.com
+#skype: skype:obaez_design?userinfo
+#feed: yes
 
 # Footer
 copyright: © 2020 Sumarsono
