@@ -15,25 +15,29 @@ layout: default
 
     <div class="container-fluid">
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Kirim ucapan untuk kami</h3>
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+            <!-- <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Kirim ucapan untuk kami</h3> -->
+            <img src="{{ site.baseurl }}/img/{{ site.mempelai.mempelai_img }}">
+
+
+            
+            <!-- <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
                 <div class="form-field">
                     <input name="name" type="text" placeholder="Nama" required>
                 </div>
                 <div class="form-field">
                     <input name="phone" type="tel" placeholder="No. HP" required>
                 </div>
-                <!-- <div class="form-field">
+                <div class="form-field">
                     <input name="email" type="email" placeholder="Email" required>
-                </div> -->
+                </div>
                 <div class="form-field">
                     <textarea name="comments" placeholder="Ucapan" required></textarea>
                 </div>
                 <input type="submit" class="btn btn-default" value="Kirim">
-            </form>
+            </form> -->
         </div>
-
     </div>
+
 </div>
 <!-- End Hero -->
 
@@ -42,43 +46,14 @@ layout: default
     <div class="col-sm-4">
         <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
         <h3>{{ site.mempelai.pria }} dan {{ site.mempelai.wanita }}</h3>
-        <ul>
-            <!-- {% if site.contact.phone %}<li><strong>Sumarsono:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Evanaimatul</strong> {{ site.contact.emergency }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
-            -->
-
-            <!-- {% if site.contact.phone %}<li><strong>Sumarsono</strong></li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Evanaimatul</strong></li>{% endif %} -->
-
-        </ul>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
         <h3>{{ site.akad.hari }}</h3>
-        <table>
-            <tbody>
-                <!-- <tr>
-                    <td>Hari</td>
-                    <td>{{ site.hari }}</td>
-                </tr>
-                <tr>
-                    <td>Bulan</td>
-                    <td>{{ site.bulan }}</td>
-                </tr>
-                <tr>
-                    <td>Tahun</td>
-                    <td>{{ site.tahun }}</td>
-                </tr> -->
-            </tbody>
-        </table>
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
         <h3>{{ site.akad.tempat }}</h3>
-            <!-- <p>
-                {{ site.contact.address }}
-            </p> -->
     </div>
 </div>
 <!-- End 3 columns -->
@@ -94,12 +69,12 @@ layout: default
                     <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
                     <h4>{{ member.name }}</h4>
                 </div>
-                <div class="expandable-box-bottom">
+                <!-- <div class="expandable-box-bottom">
                     <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
                     </a>
                     <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
                     </a>
-                </div>
+                </div> -->
             </div>
         {% endfor %}
         </div>
@@ -107,8 +82,39 @@ layout: default
 </div>
 <!-- End about -->
 
-<!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+<!-- kirim ucapan -->
+<div id="kirim_ucapan" class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
+    <div class="hero-content">
+        <div class="container-fluid">
+            <div class="hero-content-inner">
+                <h1>Terimakasih</h1>
+                <p>Atas doa restu dan kehadiran Bapak/Ibu/Saudara/Saudari</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Kirim ucapan untuk kami</h3>
+            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+                <div class="form-field">
+                    <input name="name" type="text" placeholder="Nama" required>
+                </div>
+                <div class="form-field">
+                    <input name="phone" type="tel" placeholder="No. HP" required>
+                </div>
+                <div class="form-field">
+                    <textarea name="comments" placeholder="Ucapan untuk kami" required></textarea>
+                </div>
+                <input type="submit" class="btn btn-default" value="Kirim">
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<!-- Start firman Allah -->
+<div id="firman_Allah" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
         <div class="overlay"></div>
         <div class="container-fluid">
@@ -129,7 +135,7 @@ layout: default
         </div>
     </div>
 </div>
-<!-- End Testimonials -->
+<!-- End firman Allah -->
 
 <!-- Start Gallery -->
 <!-- <div id="gallery" class="gallery">
@@ -151,5 +157,5 @@ layout: default
 <!-- End Gallery -->
 
 <!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
+<!-- <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div> -->
 <!-- End Map -->

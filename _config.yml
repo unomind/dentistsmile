@@ -7,7 +7,7 @@ logo_url: svg/min/logo.svg
 
 # Hero
 hero: 
-    hero_img: hero.jpg
+    hero_img: IMG_5179.JPG #hero.jpg
     hero_title: Mohon doa restu
     hero_description: Kami mengundang Bapak/Ibu/Sdr/i dalam acara pernikahan kami
 
@@ -25,6 +25,7 @@ contact:
 mempelai:
     pria: "Sumar"
     wanita: "Eva"
+    mempelai_img: IMG_5179.JPG
 
 # tanggal pelaksanaan
 akad:
