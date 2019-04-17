@@ -44,7 +44,7 @@ map:
 
 # Social settings
 #facebook: http://facebook.com
-twitter: http://twitter.com/
+twitter: http://twitter.com/nalakawula
 #instagram: http://instagram.com
 #youtube: http://youtube.com
 #skype: skype:obaez_design?userinfo
@@ -67,5 +67,5 @@ exclude: [
 ]
 
 # Theme Settings
-analytics: 
-google_verification:
+# analytics: 
+# google_verification:
