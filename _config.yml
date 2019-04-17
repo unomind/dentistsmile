@@ -39,7 +39,7 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Tercel, Limbangan, Boja, Kendal, Indonesia
+    address: -7.149804, 110.278972 # koordinat rumah eva
     address_details: svg/min/logo.svg
 
 # Social settings
